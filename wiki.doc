@@ -1,0 +1,146 @@
+Career Studio - It is a project where user will give 2 different assesment and based on the score the user will choose the careers from the career listing and will also be able to share the careers he selected and get votes given by the other users and check with the majors associated with the careers.
+
+**********************************************************************************************************************
+
+
+How to setup the project:
+
+1 - Install python and django in to your system and clone it from the gitlab it will create a folder in to your system where ever you want.
+
+2 - Then create a virtual environment in to your project for linux (virtualenc venv).
+
+3 - Install all requirements present in requirements.txt file with command python manage.py -r requirements.txt.
+
+4 - Setup a database by creating a settings.local file in the main project folder.
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'career_studio',
+        'USER': 'career_studio_user',
+        'PASSWORD': 'Password@123',
+        'HOST': '127.0.0.1',
+        'PORT': '',
+    }
+}
+	
+5 - Run the migration command python manage.py migrate.
+
+6 - Run the server by python manage.py runserver.
+
+***********************************************************************************************************************
+
+ALL APIs List being used can be checked from here:
+
+Swagger - https://csapi.keycorp.in/
+
+Postman collection - https://www.getpostman.com/collections/820f1d1879ca6bfa908f
+
+
+
+1 - As per the interest test the V2 version API are to be used which uses third party APIs from ONet.
+
+
+Master Tables -
+
+About app - 
+1 - Our Achievement
+2 - Our achievement item
+3- Our Team	
+4 - Our Team Item
+
+Blogs-
+1 - Blogs
+
+Career App
+
+1 - Alternative Titles	
+2 - Assessment Categories
+3 - Average Salaries	
+4 - Career Common Industries	
+5 -Career Common Industries Breakup	
+6 -Career Education Requirements	
+7 - Career Profile Glance	
+8 - Career Profiles	
+9 -Countries	
+10 - Major setups	
+11 - School Galleries	
+12 -School Major Subjects	
+13 -School Profiles	
+14 - School majors	
+15 - Skills	
+16 -Types
+
+CMS App -
+
+
+About Us---	
+	
+	Career library details	
+	Career librarys	
+	FAQs	
+	Hard skillss	
+	Privacy Policies		
+	Soft skillss	
+	Terms and Conditions
+	
+Counselling App -
+
+	Coachs	
+	Counseling headlines	
+	Sessions
+	
+	
+Home App -
+	About Us	
+
+	Banners	
+
+	Brand	
+
+	Contact Us	
+
+	How It Works	
+
+	Newsletter texts	
+
+	Newsletters	
+
+	Our Skills	
+
+	Testimonials
+	
+
+Interest App - 
+
+	Interest report masters
+	
+
+Personality test - 
+	Assessment statss	
+	Education levels	
+	Job masters		
+	Personality details	
+	Personality report masters	
+	Reasons	
+
+
+Survey - 
+	Survey questions	
+	User surveys
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
